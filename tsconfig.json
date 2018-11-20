@@ -5,12 +5,39 @@
     "target": "es6",
     "noImplicitAny": true,
     "moduleResolution": "node",
+    "skipLibCheck": true,
     "sourceMap": true,
     "outDir": "dist",
     "baseUrl": ".",
     "paths": {
       "*": ["node_modules/*", "src/types/*"]
-    }
+    },
+    "lib": ["es6", "dom", "esnext"]
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*"],
+
+  "exclude": ["node_modules", "src/**/*.spec.ts"]
 }
+
+// {
+//   "compilerOptions": {
+//     "target": "es2017",
+//     "module": "commonjs",
+//     "outDir": "dist",
+//     "sourceMap": true,
+//     "lib": [
+//       "es5",
+//       "es2015.promise"
+//     ]
+//   },
+//   "files": [
+//     "./node_modules/@types/node/index.d.ts"
+//   ],
+//   "include": [
+//     "src/**/*.be.ts"
+//   ],
+//   "exclude": [
+//     "node_modules",
+//     "src/**/*.spec.ts"
+//   ]
+// }
