@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "json-server",
+      "age": 20,
+      "companyId": "1"
+    },
+    {
+      "id": "2",
+      "firstName": "json",
+      "age": 25,
+      "companyId": "2"
+    },
+    {
+      "id": "3",
+      "firstName": "anoop",
+      "age": 35,
+      "companyId": "1"
+    },
+    {
+      "firstName": "aditya",
+      "age": 60,
+      "id": "srSl8c7"
+    },
+    {
+      "firstName": "chandu",
+      "age": 60,
+      "id": "2ToKvsZ"
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "apple",
+      "description": "really big company"
+    },
+    {
+      "id": "2",
+      "name": "microsoft",
+      "description": "software company"
+    }
+  ]
+}
